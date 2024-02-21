@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-center mt-20 text-5xl">Your Balance</h1>
+    <section>
+        <!-- <div class="grid grid-cols-3 gap-4"> -->
+        <div class="gird grid grid-cols-3 gap-6 w-9/12 mx-auto mt-10    text-slate-100" >
+            <div class="bg-lime-700 p-8 rounded-2xl">
+                <h4 class="text-2xl" >Diposite</h4 >
+                <h4 class="text-5xl">$<span id="deposit-balance">00</span> </h4 >
+            </div>
+            <div class="bg-orange-600 p-8 rounded-2xl">
+                <h4 class="text-2xl">Withdraw</h4>
+                <h4 class="text-5xl" >$<span id="withdraw-balance">00</span></h4 >
+            </div>
+            <div class="bg-indigo-600 p-8 rounded-2xl">
+                <h4 class="text-2xl">Balance</h4>
+                <h4 class="text-5xl">$<span id="main-balance">100</span></h4>
+            </div>
+        </div>
+    </section>
+    <!-- value add part of deposit and Balance  -->
+    <section>
+        <div class="gird grid grid-cols-2 gap-6 w-9/12 mx-auto mt-10    text-slate-100" >
+            <div class="bg-sky-700 p-8 rounded-2xl">
+                <h4 class="text-2xl" >Please Diposite</h4 >
+                    <input type="text" id="user-Deposit" placeholder="$ Amount you went to Deposit" class="w-9/12 m-3 block px-2 text-black">
+                    <button id="Deposit-btn"  class="w-24 px-2 py-1 rounded-md  bg-orange-600 m-3 block hover:bg-fuchsia-600">Deposit</button>
+               
+            </div>
+            <div class="bg-fuchsia-600 p-8 rounded-2xl">
+                <h4 class="text-2xl">please Withdraw</h4>
+                <input type="text" id="user-Withdraw" placeholder="$ Amount you went to Withdraw" class="w-9/12 m-3 block px-2 text-black">
+                    <button id="Withdraw-btn"  class="w-24 px-2 py-1 rounded-md  bg-orange-600 m-3 block hover:bg-sky-600">Withdraw</button>
+              
+            </div>
+    </section>
+
+    <script src="./Js/bank.js"></script>
+    <script src="./Js/withdraw.js"></script>
+</body>
+</html>

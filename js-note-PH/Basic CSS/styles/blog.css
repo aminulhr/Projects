@@ -1,0 +1,23 @@
+h3{
+    color:magenta;
+}
+p{
+    color:blue;
+}
+.header{
+    height: 200px;
+    background-image: url(../image/egol.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: aqua;
+    
+
+
+}
+h1{
+    color:red;
+}
+h3{
+    text-decoration: line-through greenyellow 5px;
+}

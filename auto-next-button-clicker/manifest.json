@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "AutoPlay Next Video",
+    "version": "1.0",
+    "description": "Automatically play the next video on specific website",
+    "permissions": [
+      "activeTab",
+      "storage"
+    ],
+    "action": {
+      "default_popup": "popup.html"
+    },
+
+    "content_scripts": [
+      {
+        "matches": ["https://web.programming-hero.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+        "service_worker": "background.js"
+      }
+      

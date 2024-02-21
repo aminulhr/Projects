@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+        .email{
+            width: 200px;
+        }
+      
+            
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h2>My salart sheet</h2>
+        <nav>
+            <ul>
+                <li><a href="form.html">Form</a>
+                <li> <a href="HTML 5.html"> HTML 5</a></li>
+                <li>
+                    <a href="learnHTML.html">Learn</a>
+                        <ul class="dropdown">
+                            <li><a href="form.html">Form</a>
+                            <li> <a href="HTML 5.html"> HTML 5</a></li>
+                            <li><a href="learnHTML.html">Learn</a></li>
+                            <li><a href="learnHTML.html">Copy</a></li>
+                            <li>      <a href="ex.html">EX File</a></li></li>
+                        </ul>
+                </li>
+                <li><a href="learnHTML.html">Copy</a></li>
+                <li>      <a href="ex.html">EX File</a></li></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Fill up the form</h1>
+    <form>
+        <label for="name">Your Name
+            <INput class="name" type="text" placeholder="Your name"></INput>
+        </label>
+        
+        <label for="email">Your Email
+            <INput class="email" type="text" placeholder="Your Email" ></INput>
+        </label>
+        
+        <label for="password">Your password
+            <INput class="password" type="password" placeholder="Your password"></INput>
+        </label>
+        
+        <label for="numbar">Your Naumbar
+            <INput class="numbar" type="number" placeholder="Your Numbar"></INput>
+        </label>
+        <fieldset>
+            <legend> log in your  Account </legend>
+            <label for="Facebook">
+                <input type="radio" name="Account" id="Facebook">Facebook
+            </label>
+            <label for="Youtube">
+                <input type="radio" name="Account" id="Youtube">Youtube
+            </label>
+            <label for="Instagram">
+                <input type="radio" name="Account" id="Instagram">Instagram
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>chose your tasbi</legend>
+            <label for="SubahanAllah">
+                <input type="checkbox" name="tasbi" id="SubahanAllah">SubahanAllah
+            </label>
+            <label for="Allahhuakbar">
+                <input type="checkbox" name="tasbi" id="Allahhuakbar">Allahhuakbar
+            </label>
+            <label for="Alhamdulillah">
+                <input type="checkbox" name="tasbi" id="Alhamdulillah">Alhamdulillah
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>my suzzation</legend>
+            <textarea name="" id="" cols="10" rows=""></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="Submit Form">
+    </form>
+</body>
+</html>

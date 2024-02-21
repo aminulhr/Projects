@@ -1,0 +1,31 @@
+
+/* body{
+    background: gray;
+    background-size: 100%;
+    background-attachment: fixed;
+
+} */
+/* div{
+    color: azure;
+    background-color: aqua;
+    margin: 20px;
+    padding: 30px; */
+/* } */
+/* .div1{
+    background-image: url(bg4.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+    background-position:
+} */
+h1{
+ text-align: center ;
+ 
+}
+
+div{
+    background: #f78fb3 url(bg4.jpeg) no-repeat center;
+    margin: 40px;
+    padding: 10px;
+    border: 25px groove yellow;
+    border-radius: 30px;
+}

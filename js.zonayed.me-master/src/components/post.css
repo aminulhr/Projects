@@ -1,0 +1,172 @@
+.post {
+  width: calc(100% - 400px);
+  padding: 100px 0;
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.post h2.title {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.post h2 {
+  font-size: 36px;
+}
+
+.post h3 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.post h4 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.post h5 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.post h6 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.post a {
+  color: #323330;
+  text-decoration: underline;
+}
+
+.post p,
+.post .section-divider {
+  font-size: 22px;
+  color: #323330;
+  margin-bottom: 15px;
+  line-height: 1.8;
+}
+
+.post ul li {
+  margin-top: 15px;
+  font-size: 22px;
+  margin-left: 25px;
+}
+
+.post code {
+  font-size: 18px;
+}
+
+.post pre {
+  margin: 50px 0;
+  font-size: 18px;
+  flex: 1;
+}
+
+.post figure {
+  margin: 0;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.post .shortcode_wysija {
+  display: none;
+}
+
+.post .pagination {
+  margin: 50px 0;
+  padding-top: 50px;
+  border-top: solid 3px #323330;
+}
+
+.post .pagination ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.post .pagination ul li {
+  margin: 0;
+  flex: 1;
+}
+
+.post .pagination ul li p {
+  margin: 0;
+}
+
+.post .pagination ul li .nav {
+  display: inline-block;
+  color: #fff;
+  font-weight: bolder;
+  background-color: #323330;
+  padding: 1px 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.post .pagination ul li.next {
+  text-align: right;
+}
+
+@media only screen and (max-width: 1200px) {
+  .post {
+    width: calc(100% - 300px);
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .post {
+    padding: 25px;
+  }
+
+  .post h2.title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .post h2 {
+    font-size: 32px;
+  }
+
+  .post h3 {
+    font-size: 28px;
+  }
+
+  .post h4 {
+    font-size: 26px;
+  }
+
+  .post h5 {
+    font-size: 24px;
+  }
+
+  .post h6 {
+    font-size: 22px;
+  }
+
+  .post p,
+  .post .section-divider {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .post ul li {
+    font-size: 20px;
+    margin-left: 15px;
+  }
+
+  .post code {
+    font-size: 16px;
+  }
+
+  .post pre {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .post {
+    flex: 1 1 100%;
+  }
+}

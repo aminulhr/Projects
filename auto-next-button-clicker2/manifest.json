@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Next Video Player",
+    "version": "1.0",
+    "description": "Automatically plays the next video when one ends",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "content_scripts": [
+      {
+        "matches": ["https://web.programming-hero.com/*"], 
+        "js": ["content.js"]
+      }
+    ]
+  }
+  

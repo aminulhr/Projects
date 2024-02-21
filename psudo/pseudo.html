@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        .box2:focus{
+            color: red;
+            font-weight: 1000;
+            }
+        .AHR:focus{
+            color: red;
+            background-color: aqua;
+            font-weight: 1000;
+            a{
+                margin: 40px 40px;
+            }
+        }
+
+        li:first-child{
+            color: red;
+        }
+        
+        li:nth-child(2n+1){
+            background-color: chartreuse;
+        }
+        li:nth-child(2n){
+            color: blue;
+        }
+        li:last-child{
+            color:brown;
+        }
+        h3::before{
+            content: "Hello   ";
+            background-color: aqua;
+            font-size: 30px;
+        }
+        h3::after{
+            content: "    Last";
+            background-color: brown;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+   <form>
+    <input type="text"> 
+    <input class="box2" type="text" name="" id="">
+    <input type="text" name="" id="">
+    <input type="reset" value="Reset">
+   </form>
+   <a class="AHR" href="../animation.html">GO the site</a>
+   <a href="www.facebook.com">facebook</a>
+   <a href="www.google">google</a>
+
+   <h3>learing pseudo with AHR -1</h3>
+   <h3>learing pseudo with AHR -2</h3>
+   <h3>learing pseudo with AHR -3</h3>
+   <h3>learing pseudo with AHR -4</h3>
+   <h3>learing pseudo with AHR -5</h3>
+   <h3>learing pseudo with AHR -6</h3>
+
+
+   <ul>
+    <li>First</li>
+    <li>second</li>
+    <li>Third</li>
+    <li>Fourth</li>
+    <li>Five</li>
+    <li>six</li>
+    <li>seven</li>
+    <li>Eight</li>
+    <li>Nine</li>
+    <li>Ten</li>
+   </ul>
+</body>
+</html>

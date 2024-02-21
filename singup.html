@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing Up Form</title>
+</head>
+<body> 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Sing UP</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form>
+        <h1>Sing Up Form</h1> <hr>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="User Name"> <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="User Email"> <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="User Password"><br>
+        <label for="phone">Phone</label>
+        <select name="code" id="code">
+            <option value="">+880</option>
+            <option value="">+999</option>
+            <option value="">+777</option>
+            <option value="">+444</option>
+        </select>
+        <input type="number" id="phone" placeholder="Phone Number"><br>
+        <label for="cun">Country</label>
+        <input list="con">
+        <datalist id="con">
+            <option value="Bangladesh"></option>
+            <option value="USA"></option>
+            <option value="UK"></option>
+            <option value="USE"></option>
+        </datalist><br>
+        Gender:
+        <input type="radio" id="gnd"  name="Gender">
+        <label for="gnd">Mail</label> 
+        <input type="radio" id="gnd2" name="Gender">
+        <label for="gnd2">Female</label> <br>
+        <label for="date">Date of Birth</label>
+        <input type="date" id="date"> <br>
+        <label for="sal">Year</label>
+        <input type="radio" name="year" id="sal">2021
+        <input type="radio" name="year" id="sal">2022
+        <input type="radio" name="year" id="sal">2023<br>
+        <label for="time">Time</label>
+        <input type="time" id="time"> <br>
+        <label for="color">Color</label>
+        <input type="color" id="color"> <br>
+        <label for="file">Uplode Your NID</label>
+        <input type="file" name="fl" id="file"> <br>
+        <input type="checkbox" name="ch" id="cbox1">
+        <label for="cbox1"> I have a Laptop</label> 
+        <input type="checkbox" name="ch" id="cbox2">
+        <label for="cbox2">Or Desktop</label> <br>
+        <label for="ch"> Pic One or Two
+            <input type="checkbox" name="checkbox" id="ch">Tee
+            <input type="checkbox" name="checkbox" id="ch">Coffey
+            <input type="checkbox" name="checkbox" id="ch">Biscuit
+            <input type="checkbox" name="checkbox" id="ch">Jus
+        </label><br>
+        <input type="submit" value="Send"> 
+        <input type="reset" value="reset"> <br>
+        <textarea name="comment" id="" cols="30" rows="4" placeholder="Comment Hear"></textarea>
+    </form> 
+</body>
+</html>
